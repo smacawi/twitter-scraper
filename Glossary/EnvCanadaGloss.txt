@@ -1,0 +1,98 @@
+﻿atmospheric pressure
+barometric pressure
+blowing dust
+blowing snow
+calm
+celsius
+climate
+climate identifier (ID)
+cloud
+Code for Normals
+cooling degree-days
+Co-operative Climate Network (CCN)
+data interval
+Daylight Saving Time
+degree-days
+dew point temperature (°C)
+direction of maximum gust (10's deg/tens of degrees)
+drizzle
+dry bulb temperature
+elevation (m)
+evaporation
+extreme maximum temperature (°C)
+extreme minimum temperature (°C)
+fog
+freezing drizzle
+freezing rain
+frost
+frost free days
+gusts
+hail
+heating degree-days
+hourly weather conditions
+humidex
+ice
+ice crystals
+ice fog
+ice pellets
+latitude
+Local Standard Time
+longitude
+maximum relative humidity (%)
+maximum temperature (°C)
+mean maximum temperature (°C)
+mean minimum temperature (°C)
+mean sea level pressure
+mean temperature (°C)
+minimum relative humidity (%)
+minimum temperature (°C)
+number of days with specified parameters
+occurrence of weather and obstructions to vision
+peak gust
+precipitation
+radiation
+rain
+rainfall, snowfall, and precipitation
+relative humidity (%)
+saturation point
+smoke or haze
+snow
+snow depth
+snow grains
+snow on the ground (cm)
+snow on the ground on the last day (cm)
+snow pellets
+snow shower saturation point
+snow squall
+snow survey
+soil temperature
+solar radiation
+speed of maximum gust (km/h)
+station name
+Station Operator
+station pressure (kPa)
+station status
+surface weather observation
+synoptic observations
+Transport Canada Identifier (TC ID)
+temperature (°C)
+thunder
+thunderstorm
+total precipitation (mm)
+total rain (mm)
+total snow (cm)
+trace
+Universal Time Coordinates (UTC)
+upper air
+vapour pressure
+visibility (km)
+weather
+weather observing station
+wet bulb temperature
+wind
+wind chill
+wind direction (10's deg/tens of degrees)
+wind speed (km/h)
+World Meteorological Organization Identifier (WMO ID)
+World Meteorological Organization (WMO)
+World Meteorological Organization (WMO) standards for "Climate Normals"
