@@ -14,7 +14,7 @@ from pprint import pprint
 # file = file.read().splitlines()
 # file = [model[line] for line in file]
 
-emb = pickle.load(open("saveEmbeddings.p", "rb"))
+emb = pickle.load(open("saveEmbeddings.pkl", "rb"))
 
 # def process_text(text, stem=True):
 #     tokens = word_tokenize(text)

@@ -35,6 +35,6 @@ for ts in tokenz:
     average = [sum(elements)/len(elements) for elements in zip(*emb)]
     tot[" ".join(ts)] = average
 
-pickle.dump(tot, open("saveEmbeddings.p", "wb"))
+pickle.dump(tot, open("saveEmbeddings.pkl", "wb"))
 # k-means cluster the embeddings
 
