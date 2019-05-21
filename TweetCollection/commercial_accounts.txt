@@ -1,7 +1,0 @@
-@breakingweather
-@accuweather
-@msnweather
-@weatherchannel
-@theweathernetus
-@wunderground
-@weatherwatches
