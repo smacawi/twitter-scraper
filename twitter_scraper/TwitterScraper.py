@@ -125,7 +125,7 @@ class TwitterScraper(object):
             qt_id = ""
 
         # reply information
-        if 'in_reply_to_status_id' in tweet:
+        if tweet['in_reply_to_status_id'] is not None:
             reply_to_tweet_id = tweet['in_reply_to_status_id']
             reply_to_user = tweet['in_reply_to_screen_name']
             reply_to_user_id = tweet['in_reply_to_user_id_str']
