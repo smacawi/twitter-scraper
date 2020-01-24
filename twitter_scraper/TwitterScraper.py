@@ -11,6 +11,7 @@ class TwitterScraper(object):
         self.api = self._load_api(auth_dict)
         self.db_table = self._create_db(db, table)
         self.stream_listener = self._create_stream_listener()
+        self.tweets_scraped = 0
 
     @classmethod
     def from_json(cls, json_path: str, kwargs):
@@ -67,7 +68,9 @@ class TwitterScraper(object):
 
         def on_status(self, tweet):
             self.twitter_scraper.db_table.insert(self.twitter_scraper.parse_tweet(tweet))
-            print(tweet.text)
+            if self.twitter_scraper.tweets_scraped % 100 == 0:
+                print(self.twitter_scraper.tweets_scraped, tweet.text)
+            self.twitter_scraper.tweets_scraped += 1
 
         def on_error(self, status_code):
             # TODO: complete error handling
