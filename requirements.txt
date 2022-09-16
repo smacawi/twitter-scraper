@@ -3,7 +3,7 @@ certifi==2019.3.9
 chardet==3.0.4
 dataset==1.1.2
 idna==2.8
-Mako==1.0.10
+Mako==1.2.2
 MarkupSafe==1.1.1
 oauthlib==3.0.1
 plac==1.0.0
